@@ -18,7 +18,7 @@ social/
 ├── ...（共 1 个技能目录）
 ```
 
-每个技能包结构一致：`SKILL.md`（技能定义）、`scripts/`（引擎与冒烟测试）、`resources/`（规则与数据）、`references/`（依据）、`examples/`（输入输出样例）、`README.md`、`FAQ.md`、`CHANGELOG.md`。
+本技能包结构：`SKILL.md`（技能定义与工作流）、`references/sources.md`（六端查询模板与评分卡）。为纯工作流型技能，不含脚本与二进制文件，Agent 按 SKILL.md 指引调用环境内的网页搜索/读取能力即可运行。
 
 ## 本地使用
 

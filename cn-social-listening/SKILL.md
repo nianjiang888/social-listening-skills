@@ -1,6 +1,8 @@
 ---
 name: cn-social-listening
+slug: cn-social-listening
 display_name: 中文舆情监听助手
+displayName: 中文舆情监听助手
 version: 1.0.0
 description: 中文社媒舆情研究简报。触发词：舆情监听/口碑研究/品牌舆情/舆情分析/舆情简报/社媒监测/小红书舆情/抖音舆情/知乎舆情/微博舆情/用户怎么看/有没有翻车/口碑怎么样/品牌声量/话题热度/舆情监控；英文：social listening / sentiment research / brand monitoring。功能：围绕一个品牌、产品、人物、事件或话题，在小红书、抖音、知乎、微博、B站、今日头条六个中文平台并行检索近 30 天真实讨论，按参与度与相关性评分、跨平台聚类，输出一份带引用、按真实声量排序、结论先行的中文舆情简报。灵感来自海外 last30days 等舆情研究技能，针对中文社媒场景重写，不依赖任何平台登录态。
 license: MIT

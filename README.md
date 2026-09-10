@@ -26,11 +26,7 @@ social/
 git clone <仓库地址>
 ```
 
-把需要的技能目录整体复制到你的 Agent skills 目录即可。单个技能这样跑：
-
-```
-python <技能目录>/scripts/<引擎>.py --help
-```
+把 `cn-social-listening/` 目录整体复制到你的 Agent skills 目录即可。这是一个纯指令型技能（无脚本引擎），Agent 读取 `SKILL.md` 后按六步工作流执行，按需加载 `references/sources.md` 作为六端查询模板与评分卡依据。
 
 ## 从 GitHub 导入到 SkillHub
 
